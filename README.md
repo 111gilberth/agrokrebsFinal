@@ -4,6 +4,8 @@
 Agrokrebs Angular is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files.
 You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. So the development process is seamless, switching from our pages to the real website is very easy to be done.
 Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.
+The angular app is hosting by firebase and the data that you will send is allow by SQL in Google cloud platform.
+This project requires an account of Google cloud and firebase.
 
 
 ## Table of Contents
