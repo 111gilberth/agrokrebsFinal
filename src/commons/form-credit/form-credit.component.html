@@ -1,0 +1,379 @@
+<!-- Section: Contact v.1 -->
+<section class="my-5">
+
+  <!-- Section heading -->
+  <h2 class="h1-responsive  text-center my-5 font-body"></h2>
+  <!-- Section description -->
+  <h3 class="font-body text-center w-responsive mx-auto pb-5"></h3>
+
+  <!-- Grid row
+  <div class="row">
+     Grid column 
+    <div class="col-lg-5 mb-lg-0 mb-4">
+     Form with header 
+      <form [formGroup]="creditForm" (ngSubmit)="saveCredit(creditForm.value)">
+        <div class="wrap-input100 validate-input" style="max-width: 750px;">
+          <input formControlName="nombre" class="input100" type="text"  [ngClass]="{ 'is-invalid': submitted && f.nombre.errors }" placeholder="Nombre completo">
+          <div *ngIf="submitted && f.nombre.errors" class="invalid-feedback">
+            <div *ngIf="f.nombre.errors.required">Es requerido llenar el nombre</div>
+          </div>
+        </div>
+        <div class="wrap-input100 validate-input" style="max-width: 750px;">
+          <input formControlName="correo"  class="input100" type="text" [ngClass]="{ 'is-invalid': submitted && f.correo.errors }" placeholder="Correo">
+          <div *ngIf="submitted && f.correo.errors" class="invalid-feedback">
+            <div *ngIf="f.correo.errors.required">Es requerido llenar el correo</div>
+         </div>
+        </div>
+        <div class="wrap-input100 validate-input" style="max-width: 750px;">
+          <select class="select100"  formControlName="municipio" [ngClass]="{ 'is-invalid': submitted && f.municipio.errors }" placeholder="Municipio" style="flex-basis: auto">
+            <option *ngFor="let municipio of municipios" [value]="municipio"  selected>{{municipio}}</option>
+          </select>
+          <div *ngIf="submitted && f.municipio.errors" class="invalid-feedback">
+            <div *ngIf="f.municipio.errors.required">Es requerido llenar el Municipio</div>
+        </div>
+        </div>
+        <div class="wrap-input100 validate-input" style="max-width: 750px;">
+          <select class="select100" formControlName="estado"  [ngClass]="{ 'is-invalid': submitted && f.estado.errors }" placeholder="Estado">
+            <option *ngFor="let estado of estados" [value]="estado"  selected>{{estado}}</option>
+          </select>
+          <div *ngIf="submitted && f.estado.errors" class="invalid-feedback">
+            <div *ngIf="f.estado.errors.required">Es requerido llenar el Estado</div>
+        </div>
+        </div>
+        <div class="wrap-input100 validate-input"style="max-width: 750px;">
+          <input class="input100" type="text" formControlName="cp"  [ngClass]="{ 'is-invalid': submitted && f.cp.errors }"  placeholder="Codigo postal">
+          <div *ngIf="submitted && f.cp.errors" class="invalid-feedback">
+            <div *ngIf="f.cp.errors.required">Es requerido llenar el Código postal</div>
+          </div>
+        </div>
+        <div class="wrap-input100 validate-input" style="max-width: 750px;">
+          <select class="select100" type="text" formControlName="requestType" placeholder="Tipo de ayuda">
+            <option *ngFor="let requestType of requestTypes" [value]="requestType" selected>{{requestType}}</option>
+          </select>
+          <div *ngIf="submitted && f.requestType.errors" class="invalid-feedback">
+            <div *ngIf="f.requestType.errors.required">Es requerido llenar el tipo de contacto</div>
+          </div>
+        </div>
+        <div class="row">
+          <br />
+              <div class="form-check" style="margin-left: 75px;">
+                <mdb-checkbox formControlName="acceptTerm" class="form-check-input"  [ngClass]="{ 'is-invalid': submitted && f.acceptTerm.errors }"></mdb-checkbox>
+                <label class="form-check-label" for="exampleCheck1">Acepta nuestros términos y condiciones.</label>
+                  <div *ngIf="submitted && f.acceptTerm.errors" class="invalid-feedback">
+                    <div *ngIf="f.acceptTerm.errors.required">Necesitas aceptar los términos y condiciones.</div>
+                  </div>
+              </div>
+        </div>
+        <br />
+        <br />
+        <div class="wrap-input100 validate-input">
+          <center>
+            <button class="contact100-form-btn" type="reset" (click)="onReset()" style="width:50%;">
+              Cancelar
+            </button>
+          </center>
+        </div>
+        <div class="wrap-input100 validate-input">
+          <center>
+            <button class="contact100-form-btn" type="submit" style="width:50%; margin-top: 10px;">
+              Enviar
+            </button>
+          </center>
+        </div>
+      </form>
+       Form with header
+    </div>
+     Grid column 
+     Grid column 
+    <div class="col-lg-7">
+      Google map
+      <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
+        asdas
+      </div>
+   Buttons
+    </div>
+    Grid column 
+  </div>
+   Grid row -->
+</section>
+<div class="main main-raised">
+      <div class="features-2">
+        <div class="text-center">
+          <h2>Crédito con Agro Krebs</h2>
+          <br />
+          <h3 style="font-size: 18px;">Solicita tu línea de crédito con Agro Krebs por un monto de: ¡Hasta por $500,000.00 y un plazo máximo de hasta 60 días!! 
+            Postuláte con el envio de los siguientes papeles y llena el formulario.</h3>
+            <br />
+            <br />
+            <hr style="margin-left: 30px; margin-right: 30px;">
+          </div>
+
+        <div class="row" >
+          <div class="col-sm-6 ml-auto" >
+            
+            
+            <form role="form" style="margin-left: 70px; margin-right: 40px; margin-top: 15px;">
+              <p style="font-size:18px;">Si quieres recibir información acerca de nuestro crédito Agrokrebs por favor llena los siguientes campos para 
+                que se contacte contigo el área correspondiente.</p>
+                <br />
+              <div class="form-group">
+                <div class="input-group input-group-alternative mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                  </div>
+                  <input class="form-control" placeholder="Nombre" type="text">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-alternative mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                  </div>
+                  <input class="form-control" placeholder="Correo" type="email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-alternative">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                  </div>
+                  <input class="form-control" placeholder="Municipio" type="password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-alternative">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                  </div>
+                  <input class="form-control" placeholder="Estado" type="password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-alternative">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                  </div>
+                  <input class="form-control" placeholder="Codigo postal" type="password">
+                </div>
+              </div>
+              
+              <div class="text-muted font-italic"><small>Debes aceptar los términos de<span class="text-success font-weight-700">&nbsp;privacidad</span></small></div>
+              <div class="row my-4">
+                <div class="col-12">
+                  <div class="custom-control custom-control-alternative custom-checkbox">
+                    <input class="custom-control-input" id="customCheckRegister" type="checkbox">
+                    <label class="custom-control-label" for="customCheckRegister">
+                      <span class="text-muted">Estoy deacuerdo con los<a href="#!">&nbsp;términos de privacidad</a></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-success mt-4" style="background: #089d27 !important;">Enviar datos</button>
+              </div>
+            </form>
+
+
+          </div>
+
+          <div class="col-sm-6 mr-auto">
+              <h2>CONVENIO AGRO KREBS</h2>
+              <p style="font-size:18px;">
+                Solicita tu linea de credito con Agro Krebs por un monto de hasta por $500,000.00 y un plazo
+                máximo hasta de 60 días postulandote solo con el envio de los siguientes requisitos.
+              </p>
+              <div style="margin-right: 20px; margin-left: 40px; margin-top: 35px; margin-bottom: 15px;">
+                
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>REQUISITOS P/ BENEFICIARIO DEL CREDITO</th>
+                        <th colspan="2">FACTURA100</th>
+                        <th colspan="2">CREDICHEQUE</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>SOLICITUD DE CREDITO BIEN ELABORADA</td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        IDENTIFICACION OFICIAL
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        COMPROBANTE DE DOMICILIO</td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>ESTADOS DE CUENTA BANCARIOS COMPLETOS DE LOS ULTIMOS TRES MESES</td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>R.F.C O CÉDULA FISCAL</td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        REFERENCIAS COMERCIALES(LLENAR APARTADO COMPLETO EN SOLICITUD DE CREDITO)
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        ACTA CONSTITUTIVA COMPLETA
+                      </td>
+                      <td>
+                        <i class="fa fa-times-circle"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-times-circle"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        RTE. DE CUMPLIMIENTO DE OBLIGACIONES FISCALES
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-times-circle"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-times-circle"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        PAGARÉ CON FIRMA Y HUELLA
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-times-circle"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-times-circle"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        PARA MONTO SUPERIOR A $50,000.00 SE REQUIERE AVAL CON LA SIGUIENTE DOCUMENTACION: IDENFITICACIÓN OFICIAL, COMPROBANTE DE DOMICILIO
+                        Y ESTADOS DE CUENTA.
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-check"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-times-circle"></i>
+                      </td>
+                      <td>
+                        <i class="fa fa-times-circle"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+              <p style="font-size:18px;">
+                Todos los documentos deben ser escaneados y legibles para ser enviados al correo creditoagrokrebs@outlook.com o al numero
+                de Whatsapp: 271 114 9505, posteriormente nosotros te notificaremos el resultado de la evaluacion para determinar el monto y plazo de credito
+                aprobado conforme  a la  documentacion enviada.
+              </p>
+              <p style="font-size:18px; justify-content: last baseline;"><span>Nota:</span>Es importante el pago de sus facturas o remisiones en tiempo y forma de acuerdo al plazo de credito estipulado con agrokrebs crédito ya que de lo
+                contrario pasará su historial de deuda a departamento de análisis crediticio de prochemex dónde se le cobrará de forma legal cobrando intereses moratorios
+                y otros cargos.
+              </p>
+            </div>
+        </div>
+      </div>
+
+  </div>
+<!-- Section: Contact v.1 -->
+

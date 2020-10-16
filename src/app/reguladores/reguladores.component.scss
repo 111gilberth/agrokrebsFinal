@@ -1,0 +1,80 @@
+
+body {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.i-line{
+  font-size: 10px;
+  display: inline-block;
+  color: #e96969;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -4px;color: #609f27 !important;
+}
+.p-line{
+  color: #797979;
+  line-height: 24px; text-rendering: optimizeLegibility; width: 80px;
+    height: 2px;
+    background: #e96969;
+    position: relative;
+    z-index: 1;
+    display: inline-block;     background: #609f27 !important;
+}
+.wave1 {
+	background-color:#C31619;
+	width: 100%;
+	height: inherit;
+	padding: 0;
+	margin: 0;
+    font-size: 0;
+}
+.wave1 * {
+    font-size: 1rem;
+}
+.wave1 img {
+	 width: 100%;
+}
+// etc
+
+.visual {
+  height: 100px;
+  width: 100%;
+  background: white;
+  margin: 0.5rem 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  padding: 1rem;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+.ex9 .parent {
+  display: grid;
+  place-items: center;
+}
+
+.ex9 .card {
+  width: clamp(23ch, 50%, 46ch);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.ex9 .visual {
+    height: 125px;
+    width: 100%;
+  }

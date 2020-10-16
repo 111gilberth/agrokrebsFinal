@@ -1,0 +1,55 @@
+<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
+  <div class="container">
+    <a _ngcontent-c1="" class="navbar-brand mr-lg-5" routerLink="inicio" style="text-decoration: none;
+    font-size: 1.6rem;
+    line-height: 100%;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;">
+     AGRO <span style="font-weight: 10;">KREBS</span>
+    </a>
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active waves-light" mdbWavesEffect>
+          <a class="nav-link"  routerLink="inicio" routerLinkActive="active">Inicio</a>
+        </li>
+        <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link"  routerLink="agrokrebs">Agrokrebs</a>
+        </li>
+        <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link"  routerLink="videos">Videos</a>
+        </li>
+        <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+          <li class="nav-item dropdown">
+            <a class="nav-link no-caret" data-toggle="dropdown" role="button" routerLink="productos">
+              <i class="ni ni-collection d-lg-none"></i>
+              <span class="nav-link-inner--text">Productos</span>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" routerLink="adherentes">Adherentes</a>
+              <a class="dropdown-item" routerLink="fertilizantesH">Fertilizantes hidrosolubles</a>
+              <a class="dropdown-item" routerLink="fertilizantesL">Fertilizantes liquidos</a>
+              <a class="dropdown-item" routerLink="reguladores">Reguladores</a>
+            </div>
+          </li>
+        </ul>
+        <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link"  routerLink="galeria">Galeria</a>
+        </li>
+        <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link"   routerLink="contacto">Contacto</a>
+        </li>
+        <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link"   routerLink="credito">Credito</a>
+        </li>
+        <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link"   routerLink="credito">Bolsa de trabajo</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

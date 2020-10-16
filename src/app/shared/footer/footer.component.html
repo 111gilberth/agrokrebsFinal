@@ -1,0 +1,60 @@
+<footer class="footer" [ngClass]="{'has-cards': getPath()!=='/user-profile' && getPath()!=='/register' && getPath()!=='/login'}">
+  <div class="container container-lg" *ngIf="getPath()!=='/user-profile' && getPath()!=='/register' && getPath()!=='/login'">
+    <div class="row">
+      <div class="col-md-6 mb-5 mb-md-0">
+        <div class="card card-lift--hover shadow border-0" style="height: 300px;">
+          <a routerLink="videos" title="Landing Page">
+            <iframe width="550" height="300" src="https://www.youtube.com/embed/l8GLxR0N3K8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </a>
+        </div>
+      </div>
+    
+      <div class="col-md-6 mb-5 mb-lg-0">
+        <div class="card card-lift--hover shadow border-0" style="height: 300px;">
+          <a routerLink="videos" title="Profile Page">
+            <iframe width="550" height="300" src="https://www.youtube.com/embed/LQjx0WhtYfg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row row-grid align-items-center" [ngClass]="{'my-md': getPath()!=='/user-profile' && getPath()!=='/register' && getPath()!=='/login', 'mb-5':getPath()==='/user-profile' || getPath()==='/register' || getPath()==='/login'}">
+      <div class="col-lg-6">
+        <h3 class="text-primary font-weight-light mb-2">Gracias por respaldarnos!</h3>
+        <h4 class="mb-0 font-weight-light" style="color: #fff;">En Agrokrebs contamos con una extensa línea de productos formulados con excelencia, utilizando únicamente las materias primas de la más alta calidad para ofrecer al agricultor un producto orgullosamente nacional.<br /></h4>
+      </div>
+      <div class="col-lg-6 text-lg-center btn-wrapper">
+        <a target="_blank" href="https://twitter.com/agrokrebs?lang=es" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" ngbTooltip="Síguenos en Twitter!">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/agrokrebs/?eid=ARCiXj_PVPA2fj25p7gWzbtpeZiodvfaXrhKWWp71ldWauMcC_Y5dnBvazo_7goG_wO0DruYdIOer-h1" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" ngbTooltip="Dale like en facebook">
+          <i class="fa fa-facebook-square"></i>
+        </a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCCJz3muYtWrVTFZsfvcl5XA" class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" ngbTooltip="Suscribete en Youtube" style="background-color: #f0051b !important; border-color: #ea4c89 !important;">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/agro_krebs/" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" ngbTooltip="Síguenos en instagram!" style="background-color: #ee6908 !important;  border-color: #ff6d02 !important;">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+    <hr style="border: 1px solid #07d037;">
+    <div class="row align-items-center justify-content-md-between">
+      <div class="col-md-6">
+        <div class="copyright" style="color: #fff;">
+          &copy; {{test | date: 'yyyy'}}
+          <a href="https://www.facebook.com/agrokrebs/?eid=ARCiXj_PVPA2fj25p7gWzbtpeZiodvfaXrhKWWp71ldWauMcC_Y5dnBvazo_7goG_wO0DruYdIOer-h1" target="_blank" style="color: #fff;">Agrokrebs</a>.
+        </div>
+      </div>
+      <div class="col-md-6">
+        <ul class="nav nav-footer justify-content-end">
+          <li class="nav-item" style="color: #fff;">
+            <a href="tel:271-688-3997" class="nav-link" target="_blank" style="color: #fff;">
+              <h6 style="font-size: 14px; color: #fff;"><i class="fa fa-mobile" style="color: #fff;"></i>&nbsp;(+52)271 688 3997</h6></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
