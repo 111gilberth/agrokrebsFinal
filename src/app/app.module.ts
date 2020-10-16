@@ -22,7 +22,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormCreditComponent } from '../commons/form-credit/form-credit.component'
-
+import { ModalVideoComponent } from '../commons/modal-video/modal-video.component';
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
 
@@ -70,7 +70,8 @@ import { LoginComponent } from './login/login.component';
     ProductosComponent,
     VideosComponent,
     LoginComponent,
-    FormCreditComponent
+    FormCreditComponent,
+    ModalVideoComponent
   ],
   imports: [
     BrowserModule,

@@ -124,7 +124,7 @@
       }
     }
   },
-  "defaultProject": "argon-design-system-angular",
+  "defaultProject": "agrokrebs",
   "cli": {
     "analytics": false
   }

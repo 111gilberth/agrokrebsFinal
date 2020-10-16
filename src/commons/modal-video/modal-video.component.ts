@@ -34,7 +34,7 @@ export class ModalVideoComponent implements OnInit {
           case "banano":{
             //this.urlSafe = this.sanitizer.bypassSecurityTrustUrl(this.urlBanano);
             this.trustedDashboardUrl = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/yTFA3zOrVE4");
-            this.imgClass = "../../assets/Planta_de_platano.png"
+            this.imgClass = "https://storage.googleapis.com/bucket_files_agro/img_g/Planta_de_platano.png"
             this.widthInput = "500"
             this.heightInput  = "300"
             break;
@@ -42,7 +42,7 @@ export class ModalVideoComponent implements OnInit {
           case "cafe":{
             //this.urlSafe = this.sanitizer.bypassSecurityTrustUrl(this.urlCafe);
             this.trustedDashboardUrl = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/YYtPzIbp05s");
-            this.imgClass = "../../assets/Cafe.6.png"
+            this.imgClass = "https://storage.googleapis.com/bucket_files_agro/img_g/Cafe.6.png"
             this.widthInput = "500"
             this.heightInput  = "300"
             break;
@@ -51,7 +51,7 @@ export class ModalVideoComponent implements OnInit {
           case "papaya":{
             //this.urlSafe = this.sanitizer.bypassSecurityTrustUrl(this.urlPapaya);
             this.trustedDashboardUrl = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/TDLs9YieqpE");
-            this.imgClass = "../../assets/PA2.png"
+            this.imgClass = "https://storage.googleapis.com/bucket_files_agro/img_g/PE2.png"
             this.widthInput = "500"
             this.heightInput  = "300"
             break;
@@ -59,7 +59,7 @@ export class ModalVideoComponent implements OnInit {
           case "citricos":{
             //this.urlSafe = this.sanitizer.bypassSecurityTrustUrl(this.urlCitricos);
             this.trustedDashboardUrl = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/ngrW79HjzSE");
-            this.imgClass = "../../assets/LM1.png"
+            this.imgClass = "https://storage.googleapis.com/bucket_files_agro/img_g/PE3.png"
             this.widthInput = "500"
             this.heightInput  = "300"
             break;
@@ -67,7 +67,7 @@ export class ModalVideoComponent implements OnInit {
           case "vivero":{
             //this.urlSafe = this.sanitizer.bypassSecurityTrustUrl(this.urlVivero);
             this.trustedDashboardUrl = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/lE9YzRvZ7vo");
-            this.imgClass = "../../assets/L5.png"
+            this.imgClass = "https://storage.googleapis.com/bucket_files_agro/img_g/PE4.png"
             this.widthInput = "500"
             this.heightInput  = "300"
             break;
@@ -75,7 +75,7 @@ export class ModalVideoComponent implements OnInit {
           case "green":{
             //this.urlSafe = this.sanitizer.bypassSecurityTrustUrl(this.urlGreen);
             this.trustedDashboardUrl = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/yTFA3zOrVE4L");
-            this.imgClass = "../../assets/Green_Cittrus.png"
+            this.imgClass = "https://storage.googleapis.com/bucket_files_agro/img_g/PE5.png"
             this.widthInput = "500"
             this.heightInput  = "300"
             break;
@@ -83,7 +83,7 @@ export class ModalVideoComponent implements OnInit {
           case "agricultura":{
             //this.urlSafe = this.sanitizer.bypassSecurityTrustUrl(this.urlAgri);
             this.trustedDashboardUrl = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/l8GLxR0N3K8");
-            this.imgClass = "../../assets/Logo_100_x_100_px.png"
+            this.imgClass = "https://storage.googleapis.com/bucket_files_agro/logo.png"
             this.widthInput = "180"
             this.heightInput  = "160"
             break;
