@@ -30,7 +30,7 @@ Every element has multiple states for colors, styles, hover, focus, that you can
 Within the download you'll find the following directories and files:
 
 ```
-argon-design-system-angular
+agrokrebs
 ├── CHANGELOG.md
 ├── ISSUES_TEMPLATE.md
 ├── LICENSE.md
