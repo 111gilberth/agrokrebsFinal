@@ -83,7 +83,7 @@ export class ModalVideoComponent implements OnInit {
           case "agricultura":{
             //this.urlSafe = this.sanitizer.bypassSecurityTrustUrl(this.urlAgri);
             this.trustedDashboardUrl = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/l8GLxR0N3K8");
-            this.imgClass = "https://storage.googleapis.com/bucket_files_agro/logo.png"
+            this.imgClass = "https://storage.googleapis.com/bucket_files_agro/LOGO%20AGROKREBS.png"
             this.widthInput = "180"
             this.heightInput  = "160"
             break;

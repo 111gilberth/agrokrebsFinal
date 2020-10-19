@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto",sans-serif;
+  font-weight: 300;
+}
 .teal {
   background-color: #009688 !important;
 }
@@ -7,10 +11,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 *, *::before, *::after {
   box-sizing: border-box;
 }
-body {
-  font-family: "Roboto",sans-serif;
-  font-weight: 300;
-}
+
 
 .mt-md-0, .my-md-0 {
     margin-top: 0 !important;
@@ -38,4 +39,9 @@ footer.page-footer .footer-copyright {
 footer.page-footer {
   bottom: 0;
   color: #fff;
+}
+.shadow1{
+  -webkit-box-shadow: 3px 2px 21px -5px rgba(0,0,0,0.83);
+  -moz-box-shadow: 3px 2px 21px -5px rgba(0,0,0,0.83);
+  box-shadow: 3px 2px 21px -5px rgba(0,0,0,0.83);
 }
